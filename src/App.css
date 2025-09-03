@@ -1,0 +1,45 @@
+.App{
+  background-color: hsl(0, 0%, 96%);
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text{
+  background-image: linear-gradient(to bottom right, var(--bs-blue), var(--bs-indigo), var(--bs-purple));
+  background-clip: text;;
+  -webkit-background-clip: text;
+  color: transparent; 
+  -webkit-text-fill-color: transparent;
+}
+
+.btn{
+  background-image: linear-gradient(to bottom right, var(--bs-blue), var(--bs-indigo), var(--bs-purple));
+  color: white; 
+}
+
+.logo{
+  width: 30px;
+  height: auto;
+}
+
+.logo-big{
+  width: 150px;
+  height: auto;
+}
+
+.navbar, .text-white{
+  background-image: linear-gradient(to bottom right, var(--bs-blue), var(--bs-indigo), var(--bs-purple));
+  border-radius: 5px;
+}
+
+.home{
+  padding: 50px;
+}
+
+.other-services{
+  padding: 0 50px 50px 50px;
+}
+
+#transaction-history, #money-transfers, #edit-profile, #contact-us{
+  padding: 50px;
+}
